@@ -5,9 +5,195 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hot Gadgets</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 </head>
 <body>
-    <h1>Starting.....</h1>
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="col-sm-6 col-md-8">
+                <a class="navbar-brand" href="#">
+                    <img src="images/logo.png" alt="">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+            <div class="collapse col-6 col-md-4 navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <a class="nav-item nav-link" href="#">Home</a>
+                <a class="nav-item nav-link" href="#products">Products</a>
+                <a class="nav-item nav-link" href="#aboutus">About Us</a>
+                <a class="nav-item nav-link" href="contactus">Contact Us</a>
+              </div>
+            </div>
+        </nav>
+    </div>
+    <div class="container">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="row align-items-center">
+                        <div class="col-md-7">
+                            <h1>Macbook Pro</h1>
+                            <p>The MacBook Pro is a line of Macintosh portable computers introduced in January 2006, by Apple Inc. It is the higher-end model of the MacBook family, sitting above the consumer-focused MacBook Air, and is available in 13-inch and 16-inch screen sizes.</p>
+                            <button class="buy-now-button">Buy Now</button>
+                        </div>
+                        <div class="col-md-5">
+                            <img src="images/banner-products/product-1.png" class="d-block w-100" alt="..."> 
+                        </div>
+                    </div>
+                </div>
+            <div class="carousel-item">
+                <div class="row align-items-center">
+                    <div class="col-md-7">
+                        <h1>Google Home</h1>
+                        <p>Google Home is a line of smart speakers developed by Google under the Google Nest brand. The devices enable users to speak voice commands to interact with services through Google Assistant, the company's virtual assistant.</p>
+                        <button class="buy-now-button">Buy Now</button>
+                    </div>
+                    <div class="col-md-5">
+                        <img src="images/banner-products/slider-1.png" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="row align-items-center">
+                    <div class="col-md-7">
+                        <h1>Mi Soundbar</h1>
+                        <p>Thrilling Cinematic Sound Get the most out of your cinema audio! The Mi Soundbar takes the sound from your TV or mobile device and transforms it into a theatre-like experience. The included 8 sound drivers deliver crisp treble, deep bass and clean mids to give a complete audio experience.</p>
+                        <button class="buy-now-button">Buy Now</button>
+                    </div>
+                    <div class="col-md-5">
+                        <img src="images/banner-products/slider-3.png" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+</div>
+    <div class="container" id="products">
+        <div class="d-flex">
+            <div class="p-2 flex-grow-1"><h2>Smartphone</h2></div>
+            <div class="p-2"><h6>See All</h6></div>
+        </div>
+        <div class="card-deck">
+            <div class="card">
+                <img src="images/phone/phone-1.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">MI 9</h5>
+                    <p class="card-text">Xiaomi Mi 9 Android smartphone. Announced Feb 2019. Features 6.39″ Super AMOLED display</p>
+                    <h5>$199</h5>
+                    <div class="card-footer">
+                        <button class="buy-now-button">Buy Now</button>
+                    </div>            
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/phone/phone-2.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                <h5 class="card-title">iPhone 11 Max</h5>
+                <p class="card-text">The iPhone 11 Pro and iPhone 11 Pro Max are smartphones designed, developed and marketed by Apple Inc.</p>
+                <h5>$999</h5>
+                <div class="card-footer">
+                    <button class="buy-now-button">Buy Now</button>
+                </div>            
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/phone/phone-3.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                <h5 class="card-title">Galaxy Note 10+</h5>
+                <p class="card-text">The Note 10+ has a sharpsly curved 6.8-inch, 19:9 screen, so the phone almost comes to a point on the </p>
+                <h5>$889</h5>
+                <div class="card-footer">
+                    <button class="buy-now-button">Buy Now</button>
+                </div>            
+            </div>
+        </div>
+    </div>
+</div>
+    <div class="container">
+        <div class="d-flex">
+            <div class="p-2 flex-grow-1"><h2>Laptop</h2></div>
+            <div class="p-2"><h6>See All</h6></div>
+        </div>
+        <div class="card-deck">
+            <div class="card">
+                <img src="images/laptop/product-1.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Asus Vivobook</h5>
+                    <p class="card-text">ASUS VivoBook E200 is designed to keep you productive all day long, even when you're on the move. This compact and affordable 11.6-inch notebook weighs less than 1kg and allows you to watch the video for up to 13 hours on a full charge.</p>
+                    <h5>$399</h5>
+                    <div class="card-footer">
+                        <button class="buy-now-button">Buy Now</button>
+                    </div>            
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/laptop/product-2.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                <h5 class="card-title">Razer Blade 15</h5>
+                <p class="card-text">Gaming Laptop 2019: Intel Core i7-9750H 6 Core, NVIDIA GeForce RTX 2080 Max-Q, 15.6" FHD 1080p 240Hz, 16GB RAM, 512GB SSD, CNC Aluminum, Chroma RGB Lighting, Thunderbolt 3</p>
+                <h5>$1499</h5>
+                <div class="card-footer">
+                    <button class="buy-now-button">Buy Now</button>
+                </div>            
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/laptop/product-3.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                <h5 class="card-title">Cheap Chinese</h5>
+                <p class="card-text">Buy at your own risk</p>
+                <h5>$189</h5>
+                <div class="card-footer">
+                    <button class="buy-now-button">Buy Now</button>
+                </div>            
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="container">
+        <h2 id="last">Categories</h2>
+        <div class="row">
+            <div class="col-6">
+                <div class="row">
+                    <div class="col-3">
+                        <img class="d-flex align-items-center card" src="images/Categories/bag.png" alt="">
+                    </div>
+                    <div class="col-3">
+                        <img class="card xx" src="images/Categories/perfume.png" alt="">
+                        <img class="card" src="images/Categories/shoe.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <img src="images/Categories/pale-order.png" alt="">
+            </div>
+        </div>
+    </div>
+   
     
+    
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </body>
 </html>

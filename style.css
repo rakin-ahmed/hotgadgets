@@ -1,3 +1,47 @@
-h1{
-    color: blue;
+.container{
+    margin-bottom: 100px;
+}
+.buy-now-button{
+    background-color: black;
+    color:
+    #fff;
+
+    border: none;
+
+    border-radius: 8px;
+
+    padding: 9px 25px;
+}
+.carousel-item{
+    padding: 20px 40px;
+}
+h6{
+    color: goldenrod;
+}
+.card{
+    padding: 25px 15px;
+    border: none;
+    box-shadow: 5px 5px 20px lightgray;
+    border-radius: 10px;
+    text-align: center;
+}
+.card-footer{
+    background-color: white !important;
+    border-top: none !important;
+}
+h2{
+    font: 700;
+}
+.col-3{
+    margin-right: 20%;
+}
+.xx{
+    padding: 10% 20%;
+    margin-bottom: 10px;
+}
+#last{
+    font: 700;
+    border-image-slice: bottom 1;
+    border-image: tomato;
+    text-align: center;
 }
